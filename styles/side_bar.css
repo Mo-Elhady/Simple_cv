@@ -1,0 +1,89 @@
+.Side_bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    height: 801px;
+    margin-left: 130px;
+    margin-top: 58px;
+    background-color: white;
+    display: inline-block;
+    z-index: 2;
+    /* border-radius: 15px; */
+}
+
+img {
+    width: 220px;
+    height: 220px;
+    border-radius: 80%;
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.2);
+
+}
+
+.Titles1 {
+    position: relative;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    /* font-family: 'Barlow', sans-serif; ; */
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(32, 30, 59);
+    
+}
+
+.Titles1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    animation: showRight 1s ease forwards;
+    animation-delay: 0.4s;
+    background-color: white;
+}
+
+
+@keyframes showRight{
+    100%{
+        width: 0;
+    }
+}
+
+.Job {
+    font-size: 15px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    font-family: Arial ;
+}
+
+.Icons {
+    font-size: 15px;
+    color: #0387c8;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.Line1 {
+    height: 1px;
+    width: 200px;
+    background-color: #0387c8;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+.Email {
+    display: block;
+    font-size: 12px;
+    margin-left: 30px;
+    font-family:'Open Sans', sans-serif;
+}

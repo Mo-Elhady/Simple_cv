@@ -1,0 +1,204 @@
+body {
+    background-color: black
+}
+
+p {
+    margin: 0;
+    margin-left: 10px;
+    display: inline-block;
+    z-index: 3;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(10, 27, 58);
+}
+
+
+.Cv {
+    display: flex;
+    flex-direction: row;
+}
+
+.Titles2 {
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: 30px;
+    display: block;
+}
+
+.Body1 {
+    flex: 1;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    height: 800px;
+    background-color: #0387c8;
+    display: inline-block;
+    z-index: 1;
+    margin-left: 420px;
+    margin-right: 100px;
+    margin-top: 50px;
+    border-color: #0387c8;
+    border-width: 1px;
+    border-style: solid;
+    /* border-radius: 15px; */
+
+
+}
+
+.About_Me {
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.P1 {
+    margin-left: 50px;
+
+}
+
+.P1:hover {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Line2 {
+    height: 1px;
+    width: 600px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+
+
+}
+
+.book {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 60px;
+    top: 600px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px white solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.book:hover {
+    border: none;
+    width: 60px;
+    height: 60px;
+
+}
+
+.gamepad {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    left: 200px;
+    top: 600px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px white solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.gamepad:hover {
+    border: none;
+    width: 60px;
+    height: 60px;
+}
+
+.camera {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    left: 340px;
+    top: 600px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px white solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.camera:hover {
+    border: none;
+    width: 60px;
+    height: 60px;
+
+}
+
+.fitness {
+    position: absolute;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    left: 480px;
+    top: 600px;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px white solid;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.fitness:hover {
+    border: none;
+    width: 60px;
+    height: 60px;
+
+}
+
+.Line30 {
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 58px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+    left: 122px;
+    top: 650px;
+
+
+}
+
+.Line31 {
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 58px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+    left: 262px;
+    top: 650px;
+
+
+}
+
+.Line32 {
+    position: absolute;
+    display: inline-block;
+    height: 2px;
+    width: 58px;
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 25px;
+    left: 403px;
+    top: 650px;
+
+
+}
